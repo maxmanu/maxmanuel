@@ -1,0 +1,35 @@
+name: 🚀 Deploy to Hosting via FTP
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: 📤 FTP Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout code
+        uses: actions/checkout@v4
+
+      - name: 🚀 Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: ${{ secrets.FTP_SERVER_DIR }}
+          protocol: ftps # Usa FTPS (FTP sobre TLS) - más seguro y estable
+          port: 21 # Puerto estándar FTP/FTPS
+          timeout: 300000 # 5 minutos de timeout
+          security: loose # Permite certificados auto-firmados (común en hosting compartido)
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            **/vendor/**
+            **/.env
+            **/cache/**
+            **/tmp/**
