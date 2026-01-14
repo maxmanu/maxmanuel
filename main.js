@@ -80,19 +80,3 @@ document.addEventListener('DOMContentLoaded', () => {
   );
   console.log('%c> contacto@maxmanuel.com', 'color: #39ff14; font-size: 14px; font-family: monospace;');
 });
-
-// Efecto parallax suave para el fondo de estrellas
-let ticking = false;
-window.addEventListener('scroll', () => {
-  if (!ticking) {
-    window.requestAnimationFrame(() => {
-      const scrolled = window.pageYOffset;
-      const parallax = document.querySelector('.container-space');
-      if (parallax) {
-        parallax.style.transform = `translateY(${scrolled * 0.3}px)`;
-      }
-      ticking = false;
-    });
-    ticking = true;
-  }
-});
