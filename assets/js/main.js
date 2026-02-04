@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
   console.log('%c> Hola, desarrollador curioso! 👋', 'color: #39ff14; font-size: 16px; font-family: monospace;');
   console.log(
     '%c> Si estás revisando el código, ¡te invito a contactarme!',
-    'color: #6b7280; font-size: 14px; font-family: monospace;'
+    'color: #6b7280; font-size: 14px; font-family: monospace;',
   );
   console.log('%c> contacto@maxmanuel.com', 'color: #39ff14; font-size: 14px; font-family: monospace;');
 });

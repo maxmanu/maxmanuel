@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteBase /
+
+# Redirigir URLs con .php a versión sin extensión
+RewriteCond %{THE_REQUEST} ^GET\ /([^\.]+)\.php [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+# Agregar .php internamente a URLs sin extensión
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+)$ $1.php [L]
