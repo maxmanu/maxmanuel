@@ -95,6 +95,10 @@ p {
 section {
   max-width: 700px;
   margin: 0 auto 72px;
+
+  p.texto {
+    text-align: justify;
+  }
 }
 
 h2 {
@@ -283,7 +287,7 @@ h2 {
   ul {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 22px;
   }
 
   article h3 {
@@ -731,4 +735,33 @@ kbd {
 
 #hotkeypad img {
   width: 16px;
+}
+
+.max-button {
+  color: #000000;
+  background: #39ff14;
+  font-weight: 600;
+  font-family: "Fira Code", monospace;
+  cursor: pointer;
+  border: 0;
+  border-radius: 6px;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(57, 255, 20, 0.3);
+}
+
+.cv-button {
+  position: fixed;
+  top: 2%;
+  left: 5%;
+}
+
+@media (max-width: 768px) {
+  .cv-button span {
+    display: none;
+  }
 }

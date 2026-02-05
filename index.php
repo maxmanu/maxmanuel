@@ -1,133 +1,132 @@
 <?php include 'templates/header.php'; ?>
 
 <div class="container d-flex justify-content-center mt-5">
-      <div class="wrapper-terminal">
-        <div class="box-terminal">
-          <div class="box-tab">
-            <div class="box-top-icons">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="lucide lucide-circle css-5cm1aq">
-                <circle cx="12" cy="12" r="10"></circle>
-              </svg>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="lucide lucide-circle css-5cm1aq">
-                <circle cx="12" cy="12" r="10"></circle>
-              </svg>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="lucide lucide-circle css-5cm1aq">
-                <circle cx="12" cy="12" r="10"></circle>
-              </svg>
-            </div>
-          </div>
-          <div class="box-content">
-            <div class="d-flex justify-content-center">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="65"
-                height="65"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="color-secondary">
-                <path d="m9 18 6-6-6-6"></path>
-              </svg>
-              <h1 class="color-primary shadow-text">
-                <span class="decor-comillas">"</span>Hola Mundo<span class="decor-comillas">"</span
-                ><span class="color-secondary blink-underline">_</span>
-              </h1>
-            </div>
-            <p class="text-white text-center terminal-text">
-              Desarrollador web apasionado por crear experiencias digitales escalables y eficientes.<br />
-              Transformando ideas en código.
-            </p>
-            <div class="hero-buttons justify-content-center">
-              <a href="#portafolio" class="max-button">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round">
-                  <rect width="18" height="18" x="3" y="3" rx="2"></rect>
-                  <path d="M7 7h10"></path>
-                  <path d="M7 12h10"></path>
-                  <path d="M7 17h10"></path>
-                </svg>
-                Proyectos
-              </a>
-              <a href="#servicios" class="max-button">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round">
-                  <rect width="18" height="18" x="3" y="3" rx="2"></rect>
-                  <path d="M7 7h10"></path>
-                  <path d="M7 12h10"></path>
-                  <path d="M7 17h10"></path>
-                </svg>
-                Servicios
-              </a>
-              <a href="#contacto" class="max-button max-button-secondary">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round">
-                  <path
-                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                </svg>
-                Contacto
-              </a>
-            </div>
-          </div>
+  <div class="wrapper-terminal">
+    <div class="box-terminal">
+      <div class="box-tab">
+        <div class="box-top-icons">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-circle css-5cm1aq">
+            <circle cx="12" cy="12" r="10"></circle>
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-circle css-5cm1aq">
+            <circle cx="12" cy="12" r="10"></circle>
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-circle css-5cm1aq">
+            <circle cx="12" cy="12" r="10"></circle>
+          </svg>
+        </div>
+      </div>
+      <div class="box-content">
+        <div class="d-flex justify-content-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="65"
+            height="65"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="color-secondary">
+            <path d="m9 18 6-6-6-6"></path>
+          </svg>
+          <h1 class="color-primary shadow-text">
+            <span class="decor-comillas">"</span>Hola Mundo<span class="decor-comillas">"</span><span class="color-secondary blink-underline">_</span>
+          </h1>
+        </div>
+        <p class="text-white text-center terminal-text">
+          Desarrollador web apasionado por crear experiencias digitales escalables y eficientes.<br />
+          Transformando ideas en código.
+        </p>
+        <div class="hero-buttons justify-content-center">
+          <a href="#portafolio" class="max-button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round">
+              <rect width="7" height="7" x="3" y="3" rx="1"></rect>
+              <rect width="7" height="7" x="14" y="3" rx="1"></rect>
+              <rect width="7" height="7" x="14" y="14" rx="1"></rect>
+              <rect width="7" height="7" x="3" y="14" rx="1"></rect>
+            </svg>
+            Proyectos
+          </a>
+          <a href="#servicios" class="max-button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round">
+              <rect width="18" height="18" x="3" y="3" rx="2"></rect>
+              <path d="M7 7h10"></path>
+              <path d="M7 12h10"></path>
+              <path d="M7 17h10"></path>
+            </svg>
+            Servicios
+          </a>
+          <a href="#contacto" class="max-button max-button-secondary">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            Contacto
+          </a>
         </div>
       </div>
     </div>
+  </div>
+</div>
 
 <!-- Sección Sobre Mí -->
 <section id="sobre-mi" class="section-container">
@@ -433,20 +432,7 @@
       <!-- Observatorio PEN -->
       <div class="project-card" data-aos="fade-up" data-aos-delay="800">
         <div class="project-header">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="color-primary">
-            <path d="M3 3v18h18"></path>
-            <path d="m19 9-5 5-4-4-3 3"></path>
-          </svg>
+          <img src="assets/img/web.svg" class="img-fluid" alt="página web">
           <h3 class="project-title">Observatorio PEN</h3>
         </div>
         <p class="project-description">Sistema de datos y análisis gubernamental</p>
@@ -461,21 +447,7 @@
       <!-- Haku -->
       <div class="project-card" data-aos="fade-up" data-aos-delay="900">
         <div class="project-header">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="color-primary">
-            <path d="M21 12V7H5a2 2 0 0 1 0-4h14v4"></path>
-            <path d="M3 5v14a2 2 0 0 0 2 2h16v-5"></path>
-            <path d="M18 12a2 2 0 0 0 0 4h4v-4Z"></path>
-          </svg>
+          <img src="assets/img/web.svg" class="img-fluid" alt="página web">
           <h3 class="project-title">Haku OBI</h3>
         </div>
         <p class="project-description">Plataforma web de cursos</p>
@@ -490,20 +462,7 @@
       <!-- Rumi Concretos -->
       <div class="project-card" data-aos="fade-up" data-aos-delay="100">
         <div class="project-header">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="color-primary">
-            <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-            <polyline points="9 22 9 12 15 12 15 22"></polyline>
-          </svg>
+          <img src="assets/img/web.svg" class="img-fluid" alt="página web">
           <h3 class="project-title">Rumi Concretos</h3>
         </div>
         <p class="project-description">Sitio web para empresa de construcción</p>
@@ -518,20 +477,7 @@
       <!-- Vane Delgado -->
       <div class="project-card" data-aos="fade-up" data-aos-delay="200">
         <div class="project-header">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="color-primary">
-            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
-            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
-          </svg>
+          <img src="assets/img/web.svg" class="img-fluid" alt="página web">
           <h3 class="project-title">Vane Delgado</h3>
         </div>
         <p class="project-description">Portafolio personal y blog</p>
@@ -546,19 +492,7 @@
       <!-- Manifiesto -->
       <div class="project-card" data-aos="fade-up" data-aos-delay="300">
         <div class="project-header">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="color-primary">
-            <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"></path>
-          </svg>
+          <img src="assets/img/web.svg" class="img-fluid" alt="página web">
           <h3 class="project-title">Manifiesto</h3>
         </div>
         <p class="project-description">Sitio Web para la agencia Manifiesto</p>
@@ -573,22 +507,7 @@
       <!-- Agenda Bicentenario -->
       <div class="project-card" data-aos="fade-up" data-aos-delay="400">
         <div class="project-header">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="color-primary">
-            <rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect>
-            <line x1="16" x2="16" y1="2" y2="6"></line>
-            <line x1="8" x2="8" y1="2" y2="6"></line>
-            <line x1="3" x2="21" y1="10" y2="10"></line>
-          </svg>
+          <img src="assets/img/web.svg" class="img-fluid" alt="página web">
           <h3 class="project-title">Agenda Bicentenario</h3>
         </div>
         <p class="project-description">Portal de eventos para la Universidad Pacífico</p>
@@ -603,21 +522,7 @@
       <!-- OBI -->
       <div class="project-card" data-aos="fade-up" data-aos-delay="500">
         <div class="project-header">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="color-primary">
-            <circle cx="12" cy="12" r="10"></circle>
-            <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
-            <path d="M2 12h20"></path>
-          </svg>
+          <img src="assets/img/web.svg" class="img-fluid" alt="página web">
           <h3 class="project-title">OBI</h3>
         </div>
         <p class="project-description">Sitio web para la empresa OBI Consulting</p>
@@ -632,23 +537,10 @@
       <!-- Laforse HG -->
       <div class="project-card" data-aos="fade-up" data-aos-delay="600">
         <div class="project-header">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="color-primary">
-            <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-            <polyline points="9 22 9 12 15 12 15 22"></polyline>
-          </svg>
+          <img src="assets/img/web.svg" class="img-fluid" alt="página web">
           <h3 class="project-title">Laforse HG</h3>
         </div>
-        <p class="project-description">E-commerce de productos premium</p>
+        <p class="project-description">Sitio Web para la empresa Laforse HG</p>
         <div class="project-tags">
           <span class="tag">PHP</span>
           <span class="tag">Wordpress</span>
@@ -660,21 +552,7 @@
       <!-- Hans Gross -->
       <div class="project-card" data-aos="fade-up" data-aos-delay="700">
         <div class="project-header">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="color-primary">
-            <circle cx="12" cy="12" r="10"></circle>
-            <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
-            <path d="M2 12h20"></path>
-          </svg>
+          <img src="assets/img/web.svg" class="img-fluid" alt="página web">
           <h3 class="project-title">Hans Gross</h3>
         </div>
         <p class="project-description">Landing page corporativa</p>
@@ -689,6 +567,22 @@
       <!-- La Económica -->
       <div class="project-card" data-aos="fade-up">
         <div class="project-header">
+          <img src="assets/img/web.svg" class="img-fluid" alt="página web">
+          <h3 class="project-title">La Económica</h3>
+        </div>
+        <p class="project-description">Sitio web corporativo</p>
+        <div class="project-tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+        </div>
+        <a href="https://www.laeconomica.pe/" target="_blank" class="project-link"> Ver proyecto → </a>
+      </div>
+    </div>
+
+    <div class="row text-center mt-5">
+      <div class="col">
+        <a href="/portfolio" class="max-button">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -698,22 +592,12 @@
             stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
-            stroke-linejoin="round"
-            class="color-primary">
-            <rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect>
-            <line x1="16" x2="16" y1="2" y2="6"></line>
-            <line x1="8" x2="8" y1="2" y2="6"></line>
-            <line x1="3" x2="21" y1="10" y2="10"></line>
+            stroke-linejoin="round">
+            <path d="M5 12h14"></path>
+            <path d="m12 5 7 7-7 7"></path>
           </svg>
-          <h3 class="project-title">La Económica</h3>
-        </div>
-        <p class="project-description">Sitio web corporativo para institución financiera</p>
-        <div class="project-tags">
-          <span class="tag">HTML</span>
-          <span class="tag">CSS</span>
-          <span class="tag">JavaScript</span>
-        </div>
-        <a href="https://www.laeconomica.pe/" target="_blank" class="project-link"> Ver proyecto → </a>
+          Ver más
+        </a>
       </div>
     </div>
   </div>

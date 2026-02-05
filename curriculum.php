@@ -23,6 +23,14 @@ foreach ($cv->basics->profiles as $profile) {
 
 <main>
 
+  <a onclick="history.back()" class="max-button cv-button no-print" title="Regresar a la página anterior">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M19 12H5"></path>
+      <path d="M12 19l-7-7 7-7"></path>
+    </svg>
+    <span>Regresar</span>
+  </a>
+
   <section class="hero-section">
     <div class="container">
       <div class="info">
@@ -75,7 +83,7 @@ foreach ($cv->basics->profiles as $profile) {
 
   <section class="about-section">
     <h2>Sobre mí</h2>
-    <p>
+    <p class="texto">
       <?php echo htmlspecialchars($cv->basics->summary); ?>
     </p>
   </section>
@@ -115,7 +123,7 @@ foreach ($cv->basics->profiles as $profile) {
             </header>
 
             <footer>
-              <p><?php echo htmlspecialchars($work->summary); ?></p>
+              <p class="texto"><?php echo htmlspecialchars($work->summary); ?></p>
             </footer>
           </article>
         </li>
@@ -161,7 +169,7 @@ foreach ($cv->basics->profiles as $profile) {
     </ul>
   </section>
 
-  <section class="projects-section">
+  <!-- <section class="projects-section">
     <h2>Proyectos</h2>
     <ul>
       <?php foreach ($cv->projects as $project): ?>
@@ -194,7 +202,7 @@ foreach ($cv->basics->profiles as $profile) {
         </li>
       <?php endforeach; ?>
     </ul>
-  </section>
+  </section> -->
 
   <section class="skills-section">
     <h2>Habilidades</h2>

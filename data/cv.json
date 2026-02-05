@@ -112,6 +112,56 @@
       "endDate": "2021-01-01",
       "score": "18/20",
       "courses": ["CS101 - Introduction to Computer Science"]
+    },
+    {
+      "institution": "Coursera - Google Data Analytics",
+      "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+      "area": "Análisis de Datos",
+      "studyType": "Technical Degree",
+      "startDate": "2023-01-01",
+      "endDate": "2023-01-01",
+      "score": "18/20",
+      "courses": ["CS101 - Introduction to Computer Science"]
+    },
+    {
+      "institution": "EDteam",
+      "url": "https://ed.team/",
+      "area": "React JS",
+      "studyType": "Technical Degree",
+      "startDate": "2021-01-01",
+      "endDate": "2021-01-01",
+      "score": "18/20",
+      "courses": ["CS101 - Introduction to Computer Science"]
+    },
+    {
+      "institution": "Google Actívate",
+      "url": "https://ed.team/",
+      "area": "Introducción al desarrollo web I y II",
+      "studyType": "Technical Degree",
+      "startDate": "2021-01-01",
+      "endDate": "2021-01-01",
+      "score": "18/20",
+      "courses": ["CS101 - Introduction to Computer Science"]
+    },
+    {
+      "institution": "Sistemas UNI",
+      "url": "https://www.sistemasuni.edu.pe/",
+      "area": "Workshop: Javascript Developer",
+      "studyType": "Technical Degree",
+      "startDate": "2019-01-01",
+      "endDate": "2019-01-01",
+      "score": "18/20",
+      "courses": ["CS101 - Introduction to Computer Science"]
+    },
+    {
+      "institution": "Udemy",
+      "url": "https://www.udemy.com/",
+      "area": "Desarrollador Express de Aministraciones con Laravel 5",
+      "studyType": "Technical Degree",
+      "startDate": "2019-01-01",
+      "endDate": "2019-01-01",
+      "score": "18/20",
+      "courses": ["CS101 - Introduction to Computer Science"]
     }
   ],
   "awards": [
@@ -205,6 +255,60 @@
       "level": "Avanzado",
       "icon": "../assets/img/icons/react.svg",
       "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "Angular",
+      "level": "Avanzado",
+      "icon": "../assets/img/icons/angular.svg",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Framework", "UI"]
+    },
+    {
+      "name": "PHP",
+      "level": "Intermedio",
+      "icon": "../assets/img/icons/php.svg",
+      "keywords": ["Desarrollo Web", "Backend", "Servidor"]
+    },
+    {
+      "name": "Python",
+      "level": "Intermedio",
+      "icon": "../assets/img/icons/python.svg",
+      "keywords": ["Desarrollo Web", "Backend", "Servidor", "Data Science"]
+    },
+    {
+      "name": "Laravel",
+      "level": "Intermedio",
+      "icon": "../assets/img/icons/laravel.svg",
+      "keywords": ["Desarrollo Web", "Backend", "PHP Framework", "Servidor"]
+    },
+    {
+      "name": "Jenkins",
+      "level": "Intermedio",
+      "icon": "../assets/img/icons/jenkins.svg",
+      "keywords": ["Integración Continua", "Despliegue Automático", "DevOps"]
+    },
+    {
+      "name": "Docker",
+      "level": "Intermedio",
+      "icon": "../assets/img/icons/docker.svg",
+      "keywords": ["Contenedores", "Despliegue", "DevOps"]
+    },
+    {
+      "name": "Figma",
+      "level": "Intermedio",
+      "icon": "../assets/img/icons/figma.svg",
+      "keywords": ["Diseño", "Prototipos", "UI/UX"]
+    },
+    {
+      "name": "NPM",
+      "level": "Intermedio",
+      "icon": "../assets/img/icons/npm.svg",
+      "keywords": ["Gestor de Paquetes", "JavaScript", "Node.js"]
+    },
+    {
+      "name": "WordPress",
+      "level": "Intermedio",
+      "icon": "../assets/img/icons/wordpress.svg",
+      "keywords": ["CMS", "Desarrollo Web", "Plugins", "Temas"]
     }
   ],
   "languages": [

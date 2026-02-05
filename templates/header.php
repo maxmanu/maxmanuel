@@ -83,9 +83,9 @@
           <div class="navbar-nav">
             <a class="nav-link" href="/curriculum">Curriculum</a>
             <a class="nav-link" href="/news">News</a>
-            <!-- <a class="nav-link" href="/proyectos">Proyectos</a>
-            <a class="nav-link" href="/servicios">Servicios</a>
-            <a class="nav-link" href="/contacto">Contacto</a> -->
+            <a class="nav-link" href="/projects">Proyectos</a>
+            <!-- <a class="nav-link" href="/servicios">Servicios</a> -->
+            <!-- <a class="nav-link" href="/contacto">Contacto</a> -->
           </div>
         </div>
       </div>
