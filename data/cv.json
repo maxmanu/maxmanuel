@@ -6,7 +6,7 @@
     "email": "maxcamina@gmail.com",
     "phone": "+51 990378205",
     "url": "https://maxmanuel.com",
-    "summary": "+6 años de experiencia como Desarrollador Web. Actualmente vivo en Lima, Perú. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
+    "summary": "Programador Fullstack con más de 6 años de experiencia en la creación de aplicaciones y sitios web responsivos, optimizados en rendimiento, accesibilidad y SEO. Especializado en Front-end con HTML5, CSS3, JavaScript, jQuery, Bootstrap, Tailwind CSS, React.js, SCSS, TypeScript y Angular. En Back-end, manejo PHP, Python, Node.js, Laravel. Experiencia en Bases de datos incluyendo modelado y optimización con MySQL, así como gestión SQL Server y MongoDB. Implemento Integración continua con Docker, Git, Jenkins, GitLab y Bitbucket. Conocimientos en CMS como WordPress, Joomla, Grav CMS y Drupal. Además, tengo habilidades en Diseño con Illustrator, Photoshop y Figma.",
     "location": {
       "address": "Jesus María, Lima, Perú",
       "postalCode": "08820",
@@ -37,29 +37,47 @@
   },
   "work": [
     {
-      "name": "midudev",
-      "position": "Divulgador sobre Programación Web",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2021-01-01",
+      "name": "Freelancer",
+      "position": "Desarrollador Web",
+      "url": "https://maxmanuel.com",
+      "startDate": "2019-01-09",
       "endDate": null,
-      "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
+      "summary": "He colaborado con diversas empresas y agencias, como Obi Consulting, donde desarrollé aplicaciones web utilizando React JS, Next JS y Angular JS, además de crear temas y plugins para WordPress y WooCommerce. En Manifiesto.pe, participé en el desarrollo de landing pages para Mapfre y Universidad Pacífico, maquetación de emails en HTML para Mapfre, creación de temas administrables en PHP y WordPress para Universidad Pacífico, desarrollo de la web de la agencia con CMS Joomla, una tienda virtual para Orgasana y un sistema de venta de libros en PHP. En Presenta.pe, me encargué del desarrollo web tanto para la agencia como para la empresa Promaut. En Revisaperu S.A.C, desarrollé sitios web para la empresa y sus filiales, además de administrar el hosting y los correos corporativos. Finalmente, Ideando.pe, fue un emprendimiento de agencia de desarrollo de software.",
       "highlights": ["Started the company"]
     },
     {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
+      "name": "MINEDU-DIF",
+      "position": "Desarrollador Web",
+      "url": "https://sigidif.me/",
+      "startDate": "2025-01-09",
+      "endDate": "2025-01-12",
+      "summary": "Lideré el desarrollo y la optimización del sistema SIGIDIF, implementando nuevas funcionalidades y resolviendo observaciones de seguridad conforme al OWASP Top 10. Dentro de mis responsabilidades, gestioné la base de datos MariaDB, asegurando su integridad y rendimiento. Además, colaboré en la mejora continua del sistema, trabajando en equipo para garantizar su estabilidad y eficiencia.",
       "highlights": ["Started the company"]
     },
     {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
+      "name": "MINEDU-OTIC",
+      "position": "Desarrollador Web",
+      "url": "https://minedu.gob.pe",
+      "startDate": "2021-01-01",
+      "endDate": "2022-01-01",
+      "summary": "Lideré la maquetación y el desarrollo continuo del portal WordPress para el Observatorio del Proyecto Educativo Nacional, asegurando la entrega eficiente de nuevas funcionalidades como la integración de tableros Power Bi para mostrar los principales indicadores del PEN. Impulsé también mejoras en la experiencia de usuario y la estabilidad del sitio.",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "PRONABEC",
+      "position": "Desarrollador Web",
+      "url": "https://pronabec.gob.pe",
+      "startDate": "2021-06-01",
+      "endDate": "2021-09-01",
+      "summary": "Me encargué de la actualización y migración de la página institucional de PRONABEC al portal Gob.pe, asegurando la continuidad operativa y la mejora en la experiencia de usuario.",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "VOLVER D6 S.A.C",
+      "position": "Desarrollador Web",
+      "startDate": "2018-03-01",
+      "endDate": "2019-05-01",
+      "summary": "Estuve encargado de la maquetación html de los emailings para el cliente principal Banco Saga Falabella, asegurando la correcta visualización en diversos clientes de correo y dispositivos. Adicionlamente, administré la plataforma Salesforce - Exactarget para la gestión y envío de campañas de email marketing.",
       "highlights": ["Started the company"]
     }
   ],
@@ -76,14 +94,24 @@
   ],
   "education": [
     {
-      "institution": "Universitat Oberta de Catalunya",
-      "url": "https://www.uoc.edu/portal/es/index.html",
-      "area": "Ingeniero de Software",
+      "institution": "Universidad Peruana de Ciencias Aplicadas",
+      "url": "https://www.upc.edu.pe",
+      "area": "Administración de Empresas",
       "studyType": "Bachelor",
-      "startDate": "2003-01-01",
-      "endDate": "2009-01-01",
+      "startDate": "2016-01-01",
+      "endDate": "2021-01-01",
       "score": "4.0",
       "courses": ["DB1101 - Basic SQL"]
+    },
+    {
+      "institution": "Tecsup",
+      "url": "https://www.tecsup.edu.pe",
+      "area": "Desarrollo Web Fullstack",
+      "studyType": "Technical Degree",
+      "startDate": "2021-01-01",
+      "endDate": "2021-01-01",
+      "score": "18/20",
+      "courses": ["CS101 - Introduction to Computer Science"]
     }
   ],
   "awards": [
