@@ -81,9 +81,10 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavHeader">
           <div class="navbar-nav">
-            <a class="nav-link" href="/curriculum">Curriculum</a>
-            <a class="nav-link" href="/news">News</a>
-            <a class="nav-link" href="/projects">Proyectos</a>
+            <a class="nav-link <?php echo ($current_page === 'index.php') ? 'active' : ''; ?>" href="/">Inicio</a>
+            <a class="nav-link <?php echo ($current_page === 'curriculum.php') ? 'active' : ''; ?>" href="/curriculum">Curriculum</a>
+            <a class="nav-link <?php echo ($current_page === 'news.php') ? 'active' : ''; ?>" href="/news">News</a>
+            <a class="nav-link <?php echo ($current_page === 'projects.php') ? 'active' : ''; ?>" href="/projects">Proyectos</a>
             <!-- <a class="nav-link" href="/servicios">Servicios</a> -->
             <!-- <a class="nav-link" href="/contacto">Contacto</a> -->
           </div>
