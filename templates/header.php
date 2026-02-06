@@ -36,7 +36,7 @@
   ?>
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"
@@ -80,7 +80,7 @@
           </div>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavHeader">
-          <div class="navbar-nav">
+          <div class="navbar-nav gap-2 gap-md-3">
             <a class="nav-link <?php echo ($current_page === 'index.php') ? 'active' : ''; ?>" href="/">Inicio</a>
             <a class="nav-link <?php echo ($current_page === 'curriculum.php') ? 'active' : ''; ?>" href="/curriculum">Curriculum</a>
             <a class="nav-link <?php echo ($current_page === 'news.php') ? 'active' : ''; ?>" href="/news">News</a>

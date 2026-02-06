@@ -582,7 +582,7 @@
 
     <div class="row text-center mt-5">
       <div class="col">
-        <a href="/portfolio" class="max-button">
+        <a href="/projects" class="max-button">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"

@@ -17,27 +17,31 @@
       <div class="row g-3">
         <div class="col-md-6">
           <label for="technology-filter" class="filter-label">Filtrar por Tecnología:</label>
-          <select id="technology-filter" class="filter-select">
-            <option value="">Todas las tecnologías</option>
-            <option value="PHP">PHP</option>
-            <option value="JavaScript">JavaScript</option>
-            <option value="Wordpress">WordPress</option>
-            <option value="HTML">HTML</option>
-            <option value="CSS">CSS</option>
-            <option value="MySQL">MySQL</option>
-            <option value="Drupal">Drupal</option>
-            <option value="Woocommerce">WooCommerce</option>
-          </select>
+          <div class="select-wrapper">
+            <select id="technology-filter" class="filter-select">
+              <option value="">Todas las tecnologías</option>
+              <option value="PHP">PHP</option>
+              <option value="JavaScript">JavaScript</option>
+              <option value="Wordpress">WordPress</option>
+              <option value="HTML">HTML</option>
+              <option value="CSS">CSS</option>
+              <option value="MySQL">MySQL</option>
+              <option value="Drupal">Drupal</option>
+              <option value="Woocommerce">WooCommerce</option>
+            </select>
+          </div>
         </div>
         <div class="col-md-6">
           <label for="agency-filter" class="filter-label">Filtrar por Agencia:</label>
-          <select id="agency-filter" class="filter-select">
-            <option value="">Todas las agencias</option>
-            <option value="MINEDU">MINEDU</option>
-            <option value="OBI Consulting">OBI Consulting</option>
-            <option value="Manifiesto">Manifiesto</option>
-            <option value="Freelance">Freelance</option>
-          </select>
+          <div class="select-wrapper">
+            <select id="agency-filter" class="filter-select">
+              <option value="">Todas las agencias</option>
+              <option value="MINEDU">MINEDU</option>
+              <option value="OBI Consulting">OBI Consulting</option>
+              <option value="Manifiesto">Manifiesto</option>
+              <option value="Freelance">Freelance</option>
+            </select>
+          </div>
         </div>
       </div>
       <div class="text-center mt-3">

@@ -397,6 +397,114 @@ html {
   height: 3rem;
 }
 
+/* News Cards */
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.news-card {
+  background: rgba(107, 114, 128, 0.1);
+  border: 2px solid var(--color-secondary);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.6s ease forwards;
+  display: flex;
+  flex-direction: column;
+}
+
+.news-card:hover {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 20px rgba(57, 255, 20, 0.2);
+  transform: translateY(-5px);
+}
+
+.news-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.news-icon {
+  color: var(--color-primary);
+  flex-shrink: 0;
+  margin-top: 0.25rem;
+}
+
+.news-title {
+  color: #ffffff;
+  font-family: "Fira Code", monospace;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.news-description {
+  color: var(--color-secondary);
+  font-family: "Fira Code", monospace;
+  margin-bottom: 1.25rem;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  flex-grow: 1;
+}
+
+.news-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(107, 114, 128, 0.3);
+}
+
+.news-date {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-secondary);
+  font-family: "Fira Code", monospace;
+  font-size: 0.85rem;
+}
+
+.news-date svg {
+  color: var(--color-primary);
+}
+
+.news-category {
+  background: rgba(57, 255, 20, 0.1);
+  color: var(--color-primary);
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-family: "Fira Code", monospace;
+  border: 1px solid rgba(57, 255, 20, 0.3);
+}
+
+.news-link {
+  color: var(--color-primary);
+  font-family: "Fira Code", monospace;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  align-self: flex-start;
+}
+
+.news-link:hover {
+  text-shadow: 0 0 8px var(--color-primary);
+  transform: translateX(5px);
+}
+
 /* Tech Stack Section */
 .tech-category {
   margin-bottom: 2rem;
@@ -480,7 +588,6 @@ html {
   transform: translateY(0);
 }
 
-/* From Uiverse.io by Subu19 */
 .hamburger {
   height: 50px;
   width: 50px;
@@ -536,13 +643,41 @@ html {
   transform: rotateZ(-45deg) translate(-5px, 5px);
 }
 
-/* Responsive Design */
+.select-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.filter-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.select-wrapper::after {
+  content: "▼";
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: var(--color-primary);
+  font-size: 15px;
+}
+
+.filter-select:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+
 @media (max-width: 768px) {
   .section-title {
     font-size: 1.5rem;
   }
 
-  .projects-grid {
+  .projects-grid,
+  .news-grid {
     grid-template-columns: 1fr;
   }
 
