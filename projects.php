@@ -4,22 +4,22 @@
   <div class="container">
     <div class="command-line text-center mb-5">
       <span class="color-secondary">$</span>
-      <span class="color-primary"> ls -la projects/</span>
+      <span class="color-primary"> <?php echo t('projects_page.command'); ?></span>
     </div>
-    <h2 class="section-title text-center mb-5">Proyectos Destacados</h2>
+    <h2 class="section-title text-center mb-5"><?php echo t('projects_page.title'); ?></h2>
 
-    <!-- Filtros -->
+    <!-- Fi ltros -->
     <div class="filters-container mb-5">
       <div class="command-line mb-3">
         <span class="color-secondary">$</span>
-        <span class="color-primary"> grep --filter</span>
+        <span class="color-primary"> <?php echo t('projects_page.filter_command'); ?></span>
       </div>
       <div class="row g-3">
         <div class="col-md-6">
-          <label for="technology-filter" class="filter-label">Filtrar por Tecnología:</label>
+          <label for="technology-filter" class="filter-label"><?php echo t('projects_page.filter_tech'); ?></label>
           <div class="select-wrapper">
             <select id="technology-filter" class="filter-select">
-              <option value="">Todas las tecnologías</option>
+              <option value=""><?php echo t('projects_page.filter_tech_all'); ?></option>
               <option value="PHP">PHP</option>
               <option value="JavaScript">JavaScript</option>
               <option value="Wordpress">WordPress</option>
@@ -32,10 +32,10 @@
           </div>
         </div>
         <div class="col-md-6">
-          <label for="agency-filter" class="filter-label">Filtrar por Agencia:</label>
+          <label for="agency-filter" class="filter-label"><?php echo t('projects_page.filter_agency'); ?></label>
           <div class="select-wrapper">
             <select id="agency-filter" class="filter-select">
-              <option value="">Todas las agencias</option>
+              <option value=""><?php echo t('projects_page.filter_agency_all'); ?></option>
               <option value="MINEDU">MINEDU</option>
               <option value="OBI Consulting">OBI Consulting</option>
               <option value="Manifiesto">Manifiesto</option>
@@ -61,7 +61,7 @@
             <path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"></path>
             <path d="M3 21v-5h5"></path>
           </svg>
-          Limpiar filtros
+          <?php echo t('projects_page.reset_filters'); ?>
         </button>
       </div>
     </div>
@@ -69,9 +69,9 @@
     <!-- Indicador de carga -->
     <div id="loading-indicator" class="text-center my-4" style="display: none;">
       <div class="spinner-border color-primary" role="status">
-        <span class="visually-hidden">Cargando...</span>
+        <span class="visually-hidden"><?php echo t('projects_page.loading'); ?>...</span>
       </div>
-      <p class="color-primary mt-2">Buscando proyectos...</p>
+      <p class="color-primary mt-2"><?php echo t('projects_page.searching'); ?>...</p>
     </div>
 
     <!-- Contador de resultados -->
@@ -231,7 +231,7 @@
 
     <!-- Mensaje cuando no hay resultados -->
     <div id="no-results" class="text-center my-5" style="display: none;">
-      <p class="color-secondary terminal-text">No se encontraron proyectos con los filtros seleccionados.</p>
+      <p class="color-secondary terminal-text"><?php echo t('projects_page.no_results'); ?></p>
     </div>
 
     <div class="row text-center mt-5">
@@ -250,7 +250,7 @@
             <path d="M19 12H5"></path>
             <path d="M12 19l-7-7 7-7"></path>
           </svg>
-          Volver al inicio
+          <?php echo t('menu.home'); ?>
         </a>
       </div>
     </div>

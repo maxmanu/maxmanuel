@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "title": "Max Manuel - Web Developer",
+    "description": "Max Manuel's Portfolio - Full Stack Web Developer specialized in creating digital experiences."
+  },
+  "menu": {
+    "home": "Home",
+    "curriculum": "Resume",
+    "news": "News",
+    "projects": "Projects",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Hello World",
+    "subtitle": "Passionate web developer creating scalable and efficient digital experiences.",
+    "subtitle_line2": "Transforming ideas into code.",
+    "btn_projects": "Projects",
+    "btn_services": "Services",
+    "btn_contact": "Contact"
+  },
+  "about": {
+    "command": "whoami",
+    "title": "About Me",
+    "p1": "I'm a web developer with experience in creating modern websites and web applications. I'm passionate about clean code, intuitive interfaces and efficient solutions.",
+    "p2": "I have worked on various projects, from landing pages to complex systems, always seeking the best user experience and development best practices."
+  },
+  "services": {
+    "command": "cat services.json",
+    "title": "Services",
+    "intro": "I offer complete digital solutions, from design to deployment, with a focus on clean code and user experience.",
+    "service1_title": "Full Stack Web Development",
+    "service1_desc": "Complete development of websites and web applications, from frontend to backend, with modern and scalable technologies.",
+    "service2_title": "WordPress & CMS",
+    "service2_desc": "Development and customization of WordPress themes, plugin implementation and optimization of existing sites.",
+    "service3_title": "E-commerce",
+    "service3_desc": "Creation of online stores with payment gateway integration and inventory management systems.",
+    "service4_title": "Landing Pages",
+    "service4_desc": "Design and development of landing pages optimized for conversion, with responsive design and fluid animations.",
+    "service5_title": "Web Maintenance",
+    "service5_desc": "Ongoing support, security updates, automatic backups and website performance optimization.",
+    "service6_title": "SEO & Optimization",
+    "service6_desc": "Search engine ranking improvement, loading speed optimization, performance analysis and implementation of security measures based on OWASP Top 10."
+  },
+  "portfolio": {
+    "command": "ls -la projects/",
+    "title": "Featured Projects",
+    "view_more": "View More",
+    "view_project": "View Project"
+  },
+  "stack": {
+    "command": "npm list --depth=0",
+    "title": "Tech Stack",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tools": "Tools"
+  },
+  "contact": {
+    "command": "cat contact.txt",
+    "title": "Contact Me",
+    "intro": "Have a project in mind? Want to collaborate? Feel free to contact me."
+  },
+  "footer": {
+    "made_with": "Made with ❤️ by Max Manuel",
+    "rights": "All rights reserved.",
+    "tagline": "Built with clean code and coffee ☕"
+  },
+  "projects_page": {
+    "command": "ls -la projects/",
+    "title": "Featured Projects",
+    "filter_command": "grep --filter",
+    "filter_tech": "Filter by Technology:",
+    "filter_tech_all": "All technologies",
+    "filter_agency": "Filter by Agency:",
+    "filter_agency_all": "All agencies",
+    "reset_filters": "Clear Filters",
+    "loading": "Loading",
+    "searching": "Searching projects",
+    "no_results": "No projects found with the selected filters.",
+    "no_results_desc": "Try changing the filters to see more results.",
+    "back_home": "Back to home"
+  }
+}

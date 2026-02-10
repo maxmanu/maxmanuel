@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "title": "Max Manuel - Desarrollador Web",
+    "description": "Portafolio de Max Manuel - Desarrollador Web Full Stack especializado en crear experiencias digitales."
+  },
+  "menu": {
+    "home": "Inicio",
+    "curriculum": "Curriculum",
+    "news": "News",
+    "projects": "Proyectos",
+    "services": "Servicios",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Hola Mundo",
+    "subtitle": "Desarrollador web apasionado por crear experiencias digitales escalables y eficientes.",
+    "subtitle_line2": "Transformando ideas en código.",
+    "btn_projects": "Proyectos",
+    "btn_services": "Servicios",
+    "btn_contact": "Contacto"
+  },
+  "about": {
+    "command": "whoami",
+    "title": "Sobre Mí",
+    "p1": "Soy un desarrollador web con experiencia en la creación de sitios y aplicaciones web modernas. Me apasiona el código limpio, las interfaces intuitivas y las soluciones eficientes.",
+    "p2": "He trabajado en diversos proyectos, desde landing pages hasta sistemas complejos, siempre buscando la mejor experiencia de usuario y las mejores prácticas de desarrollo."
+  },
+  "services": {
+    "command": "cat services.json",
+    "title": "Servicios",
+    "intro": "Ofrezco soluciones digitales completas, desde el diseño hasta el despliegue, con enfoque en código limpio y experiencia de usuario.",
+    "service1_title": "Desarrollo Web Full Stack",
+    "service1_desc": "Desarrollo completo de sitios y aplicaciones web, desde el frontend hasta el backend, con tecnologías modernas y escalables.",
+    "service2_title": "WordPress & CMS",
+    "service2_desc": "Desarrollo y personalización de temas WordPress, implementación de plugins y optimización de sitios existentes.",
+    "service3_title": "E-commerce",
+    "service3_desc": "Creación de tiendas online con integración de pasarelas de pago y sistemas de gestión de inventario.",
+    "service4_title": "Landing Pages",
+    "service4_desc": "Diseño y desarrollo de páginas de aterrizaje optimizadas para conversión, con diseño responsive y animaciones fluidas.",
+    "service5_title": "Mantenimiento Web",
+    "service5_desc": "Soporte continuo, actualizaciones de seguridad, backups automáticos y optimización del rendimiento de tu sitio web.",
+    "service6_title": "SEO & Optimización",
+    "service6_desc": "Mejora del posicionamiento en buscadores, optimización de velocidad de carga, análisis de rendimiento y implementación de medidas de seguridad basadas en OWASP Top 10."
+  },
+  "portfolio": {
+    "command": "ls -la projects/",
+    "title": "Proyectos Destacados",
+    "view_more": "Ver más",
+    "view_project": "Ver proyecto"
+  },
+  "stack": {
+    "command": "npm list --depth=0",
+    "title": "Stack Tecnológico",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tools": "Herramientas"
+  },
+  "contact": {
+    "command": "cat contact.txt",
+    "title": "Contáctame",
+    "intro": "¿Tienes un proyecto en mente? ¿Quieres colaborar? No dudes en contactarme."
+  },
+  "footer": {
+    "made_with": "Made with ❤️ by Max Manuel",
+    "rights": "Todos los derechos reservados.",
+    "tagline": "Desarrollado con código limpio y café ☕"
+  },
+  "projects_page": {
+    "command": "ls -la projects/",
+    "title": "Proyectos Destacados",
+    "filter_command": "grep --filter",
+    "filter_tech": "Filtrar por Tecnología:",
+    "filter_tech_all": "Todas las tecnologías",
+    "filter_agency": "Filtrar por Agencia:",
+    "filter_agency_all": "Todas las agencias",
+    "reset_filters": "Limpiar Filtros",
+    "loading": "Cargando",
+    "searching": "Buscando proyectos",
+    "no_results": "No se encontraron proyectos con los filtros seleccionados.",
+    "no_results_desc": "Intenta cambiar los filtros para ver más resultados.",
+    "back_home": "Volver al inicio"
+  }
+}

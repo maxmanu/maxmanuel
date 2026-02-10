@@ -1,8 +1,16 @@
 <?php
+require_once __DIR__ . '/../includes/translations.php';
+
 header('Content-Type: application/json');
 
-// Leer el archivo JSON
-$projects = json_decode(file_get_contents('../data/projects.json'), true);
+// Cargar proyectos según el idioma actual
+$projects = load_data('projects');
+
+// Si no se pudieron cargar los proyectos, devolver array vacío
+if ($projects === null) {
+  echo json_encode([]);
+  exit;
+}
 
 // Obtener los filtros desde la petición
 $technology = isset($_GET['technology']) ? $_GET['technology'] : '';

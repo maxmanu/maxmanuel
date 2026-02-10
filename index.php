@@ -62,12 +62,12 @@
             <path d="m9 18 6-6-6-6"></path>
           </svg>
           <h1 class="color-primary shadow-text">
-            <span class="decor-comillas">"</span>Hola Mundo<span class="decor-comillas">"</span><span class="color-secondary blink-underline">_</span>
+            <span class="decor-comillas">"</span><?php echo t('hero.title'); ?><span class="decor-comillas">"</span><span class="color-secondary blink-underline">_</span>
           </h1>
         </div>
         <p class="text-white text-center terminal-text">
-          Desarrollador web apasionado por crear experiencias digitales escalables y eficientes.<br />
-          Transformando ideas en código.
+          <?php echo t('hero.subtitle'); ?><br />
+          <?php echo t('hero.subtitle_line2'); ?>
         </p>
         <div class="hero-buttons justify-content-center">
           <a href="#portafolio" class="max-button">
@@ -86,7 +86,7 @@
               <rect width="7" height="7" x="14" y="14" rx="1"></rect>
               <rect width="7" height="7" x="3" y="14" rx="1"></rect>
             </svg>
-            Proyectos
+            <?php echo t('hero.btn_projects'); ?>
           </a>
           <a href="#servicios" class="max-button">
             <svg
@@ -104,7 +104,7 @@
               <path d="M7 12h10"></path>
               <path d="M7 17h10"></path>
             </svg>
-            Servicios
+            <?php echo t('hero.btn_services'); ?>
           </a>
           <a href="#contacto" class="max-button max-button-secondary">
             <svg
@@ -120,7 +120,7 @@
               <path
                 d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
             </svg>
-            Contacto
+            <?php echo t('hero.btn_contact'); ?>
           </a>
         </div>
       </div>
@@ -179,17 +179,15 @@
         <div class="box-content">
           <div class="command-line">
             <span class="color-secondary">$</span>
-            <span class="color-primary"> whoami</span>
+            <span class="color-primary"> <?php echo t('about.command'); ?></span>
           </div>
           <div class="command-output">
-            <h2 class="section-title">Sobre Mí</h2>
+            <h2 class="section-title"><?php echo t('about.title'); ?></h2>
             <p class="text-white terminal-text">
-              Soy un desarrollador web con experiencia en la creación de sitios y aplicaciones web modernas. Me
-              apasiona el código limpio, las interfaces intuitivas y las soluciones eficientes.
+              <?php echo t('about.p1'); ?>
             </p>
             <p class="text-white terminal-text">
-              He trabajado en diversos proyectos, desde landing pages hasta sistemas complejos, siempre buscando la
-              mejor experiencia de usuario y las mejores prácticas de desarrollo.
+              <?php echo t('about.p2'); ?>
             </p>
           </div>
         </div>
@@ -249,13 +247,12 @@
         <div class="box-content">
           <div class="command-line">
             <span class="color-secondary">$</span>
-            <span class="color-primary"> cat services.json</span>
+            <span class="color-primary"> <?php echo t('services.command'); ?></span>
           </div>
           <div class="command-output">
-            <h2 class="section-title">Servicios</h2>
+            <h2 class="section-title"><?php echo t('services.title'); ?></h2>
             <p class="text-white terminal-text mb-4">
-              Ofrezco soluciones digitales completas, desde el diseño hasta el despliegue, con enfoque en código
-              limpio y experiencia de usuario.
+              <?php echo t('services.intro'); ?>
             </p>
 
             <div class="projects-grid">
@@ -276,11 +273,10 @@
                     <polyline points="16 18 22 12 16 6"></polyline>
                     <polyline points="8 6 2 12 8 18"></polyline>
                   </svg>
-                  <h3 class="project-title">Desarrollo Web Full Stack</h3>
+                  <h3 class="project-title"><?php echo t('services.service1_title'); ?></h3>
                 </div>
                 <p class="project-description">
-                  Desarrollo completo de sitios y aplicaciones web, desde el frontend hasta el backend, con
-                  tecnologías modernas y escalables.
+                  <?php echo t('services.service1_desc'); ?>
                 </p>
               </div>
 
@@ -302,11 +298,10 @@
                     <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
                     <path d="M2 12h20"></path>
                   </svg>
-                  <h3 class="project-title">WordPress & CMS</h3>
+                  <h3 class="project-title"><?php echo t('services.service2_title'); ?></h3>
                 </div>
                 <p class="project-description">
-                  Desarrollo y personalización de temas WordPress, implementación de plugins y optimización de
-                  sitios existentes.
+                  <?php echo t('services.service2_desc'); ?>
                 </p>
               </div>
 
@@ -329,11 +324,10 @@
                     <path
                       d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"></path>
                   </svg>
-                  <h3 class="project-title">E-commerce</h3>
+                  <h3 class="project-title"><?php echo t('services.service3_title'); ?></h3>
                 </div>
                 <p class="project-description">
-                  Creación de tiendas online con integración de pasarelas de pago y sistemas de gestión de
-                  inventario.
+                  <?php echo t('services.service3_desc'); ?>
                 </p>
               </div>
 
@@ -354,11 +348,10 @@
                     <rect width="20" height="14" x="2" y="7" rx="2" ry="2"></rect>
                     <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
                   </svg>
-                  <h3 class="project-title">Landing Pages</h3>
+                  <h3 class="project-title"><?php echo t('services.service4_title'); ?></h3>
                 </div>
                 <p class="project-description">
-                  Diseño y desarrollo de páginas de aterrizaje optimizadas para conversión, con diseño responsive y
-                  animaciones fluidas.
+                  <?php echo t('services.service4_desc'); ?>
                 </p>
               </div>
 
@@ -380,11 +373,10 @@
                       d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"></path>
                     <circle cx="12" cy="12" r="3"></circle>
                   </svg>
-                  <h3 class="project-title">Mantenimiento Web</h3>
+                  <h3 class="project-title"><?php echo t('services.service5_title'); ?></h3>
                 </div>
                 <p class="project-description">
-                  Soporte continuo, actualizaciones de seguridad, backups automáticos y optimización del rendimiento
-                  de tu sitio web.
+                  <?php echo t('services.service5_desc'); ?>
                 </p>
               </div>
 
@@ -404,11 +396,10 @@
                     class="color-primary">
                     <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
                   </svg>
-                  <h3 class="project-title">SEO & Optimización</h3>
+                  <h3 class="project-title"><?php echo t('services.service6_title'); ?></h3>
                 </div>
                 <p class="project-description">
-                  Mejora del posicionamiento en buscadores, optimización de velocidad de carga, análisis de
-                  rendimiento y implementación de medidas de seguridad basadas en OWASP Top 10.
+                  <?php echo t('services.service6_desc'); ?>
                 </p>
               </div>
             </div>
@@ -424,9 +415,9 @@
   <div class="container">
     <div class="command-line text-center mb-5">
       <span class="color-secondary">$</span>
-      <span class="color-primary"> ls -la projects/</span>
+      <span class="color-primary"> <?php echo t('portfolio.command'); ?></span>
     </div>
-    <h2 class="section-title text-center mb-5">Proyectos Destacados</h2>
+    <h2 class="section-title text-center mb-5"><?php echo t('portfolio.title'); ?></h2>
 
     <div class="projects-grid">
       <!-- Observatorio PEN -->
@@ -441,7 +432,7 @@
           <span class="tag">Power BI</span>
           <span class="tag">Wordpress</span>
         </div>
-        <a href="https://observatorio-pen.cne.gob.pe/" target="_blank" class="project-link"> Ver proyecto → </a>
+        <a href="https://observatorio-pen.cne.gob.pe/" target="_blank" class="project-link"> <?php echo t('portfolio.view_project'); ?> → </a>
       </div>
 
       <!-- Haku -->
@@ -456,7 +447,7 @@
           <span class="tag">Wordpress</span>
           <span class="tag">Woocommerce</span>
         </div>
-        <a href="https://haku.obi.com.pe/" target="_blank" class="project-link"> Ver proyecto → </a>
+        <a href="https://haku.obi.com.pe/" target="_blank" class="project-link"> <?php echo t('portfolio.view_project'); ?> → </a>
       </div>
 
       <!-- Rumi Concretos -->
@@ -471,7 +462,7 @@
           <span class="tag">CSS</span>
           <span class="tag">PHP</span>
         </div>
-        <a href="https://www.rumiconcretos.pe/" target="_blank" class="project-link"> Ver proyecto → </a>
+        <a href="https://www.rumiconcretos.pe/" target="_blank" class="project-link"> <?php echo t('portfolio.view_project'); ?> → </a>
       </div>
 
       <!-- Vane Delgado -->
@@ -486,7 +477,7 @@
           <span class="tag">PHP</span>
           <span class="tag">MySQL</span>
         </div>
-        <a href="https://vanedelgado.com/" target="_blank" class="project-link"> Ver proyecto → </a>
+        <a href="https://vanedelgado.com/" target="_blank" class="project-link"> <?php echo t('portfolio.view_project'); ?> → </a>
       </div>
 
       <!-- Manifiesto -->
@@ -501,7 +492,7 @@
           <span class="tag">Drupal</span>
           <span class="tag">SEO</span>
         </div>
-        <a href="https://manifiesto.pe/" target="_blank" class="project-link"> Ver proyecto → </a>
+        <a href="https://manifiesto.pe/" target="_blank" class="project-link"> <?php echo t('portfolio.view_project'); ?> → </a>
       </div>
 
       <!-- Agenda Bicentenario -->
@@ -516,7 +507,7 @@
           <span class="tag">PHP</span>
           <span class="tag">UI/UX</span>
         </div>
-        <a href="https://agenda.manifiesto.pe/" target="_blank" class="project-link"> Ver proyecto → </a>
+        <a href="https://agenda.manifiesto.pe/" target="_blank" class="project-link"> <?php echo t('portfolio.view_project'); ?> → </a>
       </div>
 
       <!-- OBI -->
@@ -531,7 +522,7 @@
           <span class="tag">CSS</span>
           <span class="tag">Javascript</span>
         </div>
-        <a href="https://obi.com.pe/" target="_blank" class="project-link"> Ver proyecto → </a>
+        <a href="https://obi.com.pe/" target="_blank" class="project-link"> <?php echo t('portfolio.view_project'); ?> → </a>
       </div>
 
       <!-- Laforse HG -->
@@ -546,7 +537,7 @@
           <span class="tag">Wordpress</span>
           <span class="tag">Admin Panel</span>
         </div>
-        <a href="https://www.laforse-hg.com/" target="_blank" class="project-link"> Ver proyecto → </a>
+        <a href="https://www.laforse-hg.com/" target="_blank" class="project-link"> <?php echo t('portfolio.view_project'); ?> → </a>
       </div>
 
       <!-- Hans Gross -->
@@ -561,7 +552,7 @@
           <span class="tag">CSS</span>
           <span class="tag">Animations</span>
         </div>
-        <a href="https://hansgross.com.pe/" target="_blank" class="project-link"> Ver proyecto → </a>
+        <a href="https://hansgross.com.pe/" target="_blank" class="project-link"> <?php echo t('portfolio.view_project'); ?> → </a>
       </div>
 
       <!-- La Económica -->
@@ -576,7 +567,7 @@
           <span class="tag">CSS</span>
           <span class="tag">JavaScript</span>
         </div>
-        <a href="https://www.laeconomica.pe/" target="_blank" class="project-link"> Ver proyecto → </a>
+        <a href="https://www.laeconomica.pe/" target="_blank" class="project-link"> <?php echo t('portfolio.view_project'); ?> → </a>
       </div>
     </div>
 
@@ -596,7 +587,7 @@
             <path d="M5 12h14"></path>
             <path d="m12 5 7 7-7 7"></path>
           </svg>
-          Ver más
+          <?php echo t('portfolio.view_more'); ?>
         </a>
       </div>
     </div>
@@ -654,13 +645,13 @@
         <div class="box-content">
           <div class="command-line">
             <span class="color-secondary">$</span>
-            <span class="color-primary"> npm list --depth=0</span>
+            <span class="color-primary"> <?php echo t('stack.command'); ?></span>
           </div>
           <div class="command-output">
-            <h2 class="section-title">Stack Tecnológico</h2>
+            <h2 class="section-title"><?php echo t('stack.title'); ?></h2>
 
             <div class="tech-category">
-              <h3 class="tech-category-title"><span class="color-secondary">├──</span> Frontend</h3>
+              <h3 class="tech-category-title"><span class="color-secondary">├──</span> <?php echo t('stack.frontend'); ?></h3>
               <div class="tech-list">
                 <span class="tech-item">HTML5</span>
                 <span class="tech-item">CSS3 / Sass</span>
@@ -674,7 +665,7 @@
             </div>
 
             <div class="tech-category">
-              <h3 class="tech-category-title"><span class="color-secondary">├──</span> Backend</h3>
+              <h3 class="tech-category-title"><span class="color-secondary">├──</span> <?php echo t('stack.backend'); ?></h3>
               <div class="tech-list">
                 <span class="tech-item">Node.js</span>
                 <span class="tech-item">Express.js</span>
@@ -689,7 +680,7 @@
             </div>
 
             <div class="tech-category">
-              <h3 class="tech-category-title"><span class="color-secondary">└──</span> Herramientas</h3>
+              <h3 class="tech-category-title"><span class="color-secondary">└──</span> <?php echo t('stack.tools'); ?></h3>
               <div class="tech-list">
                 <span class="tech-item">Git / GitHub</span>
                 <span class="tech-item">VS Code</span>
@@ -757,12 +748,12 @@
         <div class="box-content">
           <div class="command-line">
             <span class="color-secondary">$</span>
-            <span class="color-primary"> cat contact.txt</span>
+            <span class="color-primary"> <?php echo t('contact.command'); ?></span>
           </div>
           <div class="command-output">
-            <h2 class="section-title">Contáctame</h2>
+            <h2 class="section-title"><?php echo t('contact.title'); ?></h2>
             <p class="text-white terminal-text mb-4">
-              ¿Tienes un proyecto en mente? ¿Quieres colaborar? No dudes en contactarme.
+              <?php echo t('contact.intro'); ?>
             </p>
 
             <div class="contact-buttons">

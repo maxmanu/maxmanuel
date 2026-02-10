@@ -711,3 +711,33 @@ html {
     width: 10%;
   }
 }
+/* Language Selector Dropdown Styles */
+.navbar-nav .dropdown-menu {
+  background-color: #1a1a1a;
+  border: 1px solid var(--color-primary);
+  border-radius: 8px;
+  padding: 0.5rem;
+  min-width: 150px;
+}
+
+.navbar-nav .dropdown-item {
+  color: var(--color-primary);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .dropdown-item:hover {
+  background-color: rgba(57, 255, 20, 0.1);
+  color: var(--color-primary);
+}
+
+.navbar-nav .dropdown-item.active {
+  background-color: rgba(57, 255, 20, 0.2);
+  font-weight: 600;
+}
+
+.navbar-nav .dropdown-toggle::after {
+  margin-left: 0.5rem;
+}
+

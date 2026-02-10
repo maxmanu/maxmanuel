@@ -1,14 +1,19 @@
+<?php
+// Cargar sistema de traducción
+require_once __DIR__ . '/../includes/translations.php';
+$current_lang = get_current_lang();
+?>
 <!DOCTYPE html>
-<html lang="es">
+<html lang="<?php echo $current_lang; ?>">
 
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Max Manuel - Desarrollador Web</title>
+  <title><?php echo t('meta.title'); ?></title>
   <link rel="icon" type="image/x-icon" href="assets/img/icons/dev.svg">
   <meta
     name="description"
-    content="Portafolio de Max Manuel - Desarrollador Web Full Stack especializado en crear experiencias digitales." />
+    content="<?php echo t('meta.description'); ?>" />
 
   <?php
   $current_page = strtolower(basename($_SERVER['PHP_SELF']));
@@ -81,12 +86,20 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavHeader">
           <div class="navbar-nav gap-2 gap-md-3">
-            <a class="nav-link <?php echo ($current_page === 'index.php') ? 'active' : ''; ?>" href="/">Inicio</a>
-            <a class="nav-link <?php echo ($current_page === 'curriculum.php') ? 'active' : ''; ?>" href="/curriculum">Curriculum</a>
-            <a class="nav-link <?php echo ($current_page === 'news.php') ? 'active' : ''; ?>" href="/news">News</a>
-            <a class="nav-link <?php echo ($current_page === 'projects.php') ? 'active' : ''; ?>" href="/projects">Proyectos</a>
-            <!-- <a class="nav-link" href="/servicios">Servicios</a> -->
-            <!-- <a class="nav-link" href="/contacto">Contacto</a> -->
+            <a class="nav-link <?php echo ($current_page === 'index.php') ? 'active' : ''; ?>" href="/"><?php echo t('menu.home'); ?></a>
+            <a class="nav-link <?php echo ($current_page === 'curriculum.php') ? 'active' : ''; ?>" href="/curriculum"><?php echo t('menu.curriculum'); ?></a>
+            <a class="nav-link <?php echo ($current_page === 'news.php') ? 'active' : ''; ?>" href="/news"><?php echo t('menu.news'); ?></a>
+            <a class="nav-link <?php echo ($current_page === 'projects.php') ? 'active' : ''; ?>" href="/projects"><?php echo t('menu.projects'); ?></a>
+            <!-- Language Selector -->
+            <div class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="langDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <?php echo strtoupper($current_lang); ?>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="langDropdown">
+                <li><a class="dropdown-item <?php echo ($current_lang === 'es') ? 'active' : ''; ?>" href="?lang=es">🇪🇸 Español</a></li>
+                <li><a class="dropdown-item <?php echo ($current_lang === 'en') ? 'active' : ''; ?>" href="?lang=en">🇺🇸 English</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

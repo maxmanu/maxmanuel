@@ -4,11 +4,11 @@
     <div class="footer-content">
       <div class="command-line">
         <span class="color-secondary">$</span>
-        <span class="color-primary"> echo "Made with ❤️ by Max Manuel"</span>
+        <span class="color-primary"> echo "<?php echo t('footer.made_with'); ?>"</span>
       </div>
-      <p class="footer-text">© <?php echo date("Y"); ?> Max Manuel. Todos los derechos reservados.</p>
+      <p class="footer-text">© <?php echo date("Y"); ?> Max Manuel. <?php echo t('footer.rights'); ?></p>
       <p class="footer-text color-secondary">
-        <span class="color-primary">&gt;</span> Desarrollado con código limpio y café ☕
+        <span class="color-primary">&gt;</span> <?php echo t('footer.tagline'); ?>
       </p>
     </div>
   </div>
