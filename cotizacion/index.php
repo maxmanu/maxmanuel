@@ -51,11 +51,6 @@ require_once 'template/header.php';
     motor de tokens propio (GHC / m-UC / p-UC), wallet integrado con estado por usuario, módulo de votación y
     propuestas con umbrales mínimos de participación, verificación de edad (KYC), y soporte multiidioma.
   </p>
-  <p>
-    Este documento compara dos enfoques de implementación teniendo en cuenta que el mockup original especifica
-    <strong style="color:var(--color-warning);">WordPress + Elementor Pro</strong> como referencia de diseño,
-    frente a una <strong style="color:var(--color-primary);">solución PHP personalizada</strong> que cubra la complejidad técnica completa del ecosistema BGH.
-  </p>
   <div class="d-flex flex-wrap gap-2 mt-3">
     <span class="tag">LMS multinivelado</span>
     <span class="tag">GHC / m-UC / p-UC tokens</span>
