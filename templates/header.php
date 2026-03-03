@@ -95,9 +95,12 @@ $current_lang = get_current_lang();
               <a class="nav-link dropdown-toggle" href="#" id="langDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <?php echo strtoupper($current_lang); ?>
               </a>
+              <?php
+              $slug_param = isset($_GET['slug']) ? '&slug=' . urlencode($_GET['slug']) : '';
+              ?>
               <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="langDropdown">
-                <li><a class="dropdown-item <?php echo ($current_lang === 'es') ? 'active' : ''; ?>" href="?lang=es">🇪🇸 Español</a></li>
-                <li><a class="dropdown-item <?php echo ($current_lang === 'en') ? 'active' : ''; ?>" href="?lang=en">🇺🇸 English</a></li>
+                <li><a class="dropdown-item <?php echo ($current_lang === 'es') ? 'active' : ''; ?>" href="?lang=es<?php echo $slug_param; ?>">🇪🇸 Español</a></li>
+                <li><a class="dropdown-item <?php echo ($current_lang === 'en') ? 'active' : ''; ?>" href="?lang=en<?php echo $slug_param; ?>">🇺🇸 English</a></li>
               </ul>
             </div>
           </div>

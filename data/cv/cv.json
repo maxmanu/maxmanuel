@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Max Manuel C.A.",
-    "label": "Full Stack Developer with over 6 years of experience in web development for different agencies in Peru",
+    "label": "Full Stack Developer with over 6 years of experience in web development for agencies, private companies, and public sector entities in Peru.",
     "image": "../assets/img/perfil-foto.jpg",
     "email": "maxcamina@gmail.com",
     "phone": "+51 990378205",
     "url": "https://maxmanuel.com",
-    "summary": "Fullstack Programmer with over 6 years of experience in creating responsive web applications and websites, optimized for performance, accessibility and SEO. Specialized in Front-end with HTML5, CSS3, JavaScript, jQuery, Bootstrap, Tailwind CSS, React.js, SCSS, TypeScript and Angular. In Back-end, I handle PHP, Python, Node.js, Laravel. Experience in Databases including modeling and optimization with MySQL, as well as SQL Server and MongoDB management. I implement Continuous Integration with Docker, Git, Jenkins, GitLab and Bitbucket. Knowledge in CMS such as WordPress, Joomla, Grav CMS and Drupal. In addition, I have skills in Design with Illustrator, Photoshop and Figma.",
+    "summary": "Full Stack Developer with over 6 years of experience building responsive web applications and websites, focused on performance, accessibility, and SEO. Specialized in Front-end development using HTML5, CSS3, JavaScript, TypeScript, and modern frameworks such as React, Angular, and Next.js. Proficient in styling tools like Tailwind CSS, Bootstrap, and SCSS. On the Back-end side, I have experience with PHP (Laravel), Node.js, and Python, developing APIs and scalable solutions. I have solid knowledge of both relational and non-relational databases, including MySQL, SQL Server, MariaDB, and MongoDB, covering modeling, optimization, and maintenance. I have experience working with modern methodologies and continuous integration tools such as Docker, Git, Jenkins, GitLab, and Bitbucket. I have also developed solutions on CMS platforms such as WordPress, WooCommerce, Joomla, and Drupal. Additionally, I have knowledge in design and prototyping using Figma, Illustrator, and Photoshop, which allows me to collaborate efficiently in multidisciplinary teams.",
     "location": {
       "address": "Jesus María, Lima, Peru",
       "postalCode": "08820",
@@ -40,56 +40,122 @@
       "name": "Freelancer",
       "position": "Web Developer",
       "url": "https://maxmanuel.com",
-      "startDate": "2019-01-09",
+      "startDate": "Jan 2019",
       "endDate": null,
-      "summary": "I have collaborated with various companies and agencies, such as Obi Consulting, where I developed web applications using React JS, Next JS and Angular JS, in addition to creating themes and plugins for WordPress and WooCommerce. At Manifiesto.pe, I participated in the development of landing pages for Mapfre and Universidad Pacífico, HTML email layout for Mapfre, creation of manageable themes in PHP and WordPress for Universidad Pacífico, development of the agency's website with Joomla CMS, a virtual store for Orgasana and a book sales system in PHP. At Presenta.pe, I was in charge of web development for both the agency and the company Promaut. At Revisaperu S.A.C, I developed websites for the company and its subsidiaries, in addition to managing hosting and corporate emails. Finally, Ideando.pe, was a software development agency venture.",
-      "highlights": ["Started the company"]
+      "summary": "",
+      "highlights": [
+        "Collaborated with various companies and agencies, developing web applications",
+        "Participated in the development of landing pages, HTML email templates, and manageable PHP and WordPress themes",
+        "At Revisaperu S.A.C., developed websites for the company and its subsidiaries, as well as managing hosting and corporate email",
+        "Ideando.pe was my own software development agency venture"
+      ]
     },
     {
       "name": "MINEDU-DIF",
       "position": "Web Developer",
-      "url": "https://sigidif.me/",
-      "startDate": "2025-01-09",
-      "endDate": "2025-01-12",
-      "summary": "I led the development and optimization of the SIGIDIF system, implementing new functionalities and resolving security observations in accordance with OWASP Top 10. Within my responsibilities, I managed the MariaDB database, ensuring its integrity and performance. Additionally, I collaborated on the continuous improvement of the system, working as a team to guarantee its stability and efficiency.",
-      "highlights": ["Started the company"]
+      "url": "https://testsigidif.space/",
+      "startDate": "Oct 2025",
+      "endDate": "Dec 2025",
+      "summary": "",
+      "highlights": [
+        "Led the development and optimization of the SIGIDIF system, implementing new features and resolving security issues in accordance with the OWASP Top 10",
+        "Managed the MariaDB database, ensuring its integrity and performance",
+        "Collaborated on the continuous improvement of the system, working as a team to ensure its stability and efficiency"
+      ]
     },
     {
-      "name": "MINEDU-OTIC",
+      "name": "Obi Consulting",
+      "position": "Web Developer",
+      "url": "http://obi.com.pe/",
+      "startDate": "Mar 2023",
+      "endDate": "Dec 2024",
+      "summary": "",
+      "highlights": [
+        "Web application development in React JS and Next JS",
+        "Application development in Angular JS",
+        "WordPress / WooCommerce theme and plugin development"
+      ]
+    },
+    {
+      "name": "MINEDU-OTIC (Phase I)",
       "position": "Web Developer",
       "url": "https://minedu.gob.pe",
-      "startDate": "2021-01-01",
-      "endDate": "2022-01-01",
-      "summary": "I led the layout and continuous development of the WordPress portal for the National Educational Project Observatory, ensuring the efficient delivery of new functionalities such as the integration of Power Bi dashboards to show the main PEN indicators. I also drove improvements in user experience and site stability.",
-      "highlights": ["Started the company"]
+      "startDate": "Sep 2022",
+      "endDate": "Dec 2022",
+      "summary": "",
+      "highlights": [
+        "Led the front-end development for the National Education Project Observatory, ensuring the efficient delivery of new features such as the integration of Power BI dashboards to display the main PEN indicators",
+        "Drove improvements in user experience and site stability"
+      ]
+    },
+    {
+      "name": "MINEDU-OTIC (Phase II)",
+      "position": "Web Developer",
+      "url": "https://minedu.gob.pe",
+      "startDate": "Oct 2021",
+      "endDate": "Dec 2021",
+      "summary": "",
+      "highlights": [
+        "Led the ongoing development of the WordPress portal for the National Education Project Observatory, ensuring the efficient delivery of new features such as the integration of Power BI dashboards to display the main PEN indicators"
+      ]
     },
     {
       "name": "PRONABEC",
       "position": "Web Developer",
       "url": "https://pronabec.gob.pe",
-      "startDate": "2021-06-01",
-      "endDate": "2021-09-01",
-      "summary": "I was in charge of updating and migrating the PRONABEC institutional page to the Gob.pe portal, ensuring operational continuity and improvement in user experience.",
-      "highlights": ["Started the company"]
+      "startDate": "Mar 2021",
+      "endDate": "Jul 2021",
+      "summary": "",
+      "highlights": [
+        "Responsible for the update and migration of PRONABEC's institutional website to the Gob.pe portal, ensuring operational continuity and improved user experience"
+      ]
+    },
+    {
+      "name": "Manifiesto.pe",
+      "position": "Web Developer",
+      "url": "https://manifiesto.pe/",
+      "startDate": "Oct 2020",
+      "endDate": "Mar 2021",
+      "summary": "",
+      "highlights": [
+        "Landing page development for Mapfre and Universidad Pacífico",
+        "HTML email template design for Mapfre",
+        "Manageable PHP-WordPress theme development for Universidad Pacífico",
+        "Agency website development using Joomla CMS",
+        "Virtual store development for Orgasana",
+        "Book sales system development in PHP"
+      ]
+    },
+    {
+      "name": "Presenta",
+      "position": "Web Developer",
+      "url": "https://presenta.pe/",
+      "startDate": "Jun 2020",
+      "endDate": "Oct 2020",
+      "summary": "",
+      "highlights": [
+        "Web project development for various clients",
+        "Website development for the agency and Promaut company"
+      ]
     },
     {
       "name": "VOLVER D6 S.A.C",
       "position": "Web Developer",
-      "startDate": "2018-03-01",
-      "endDate": "2019-05-01",
-      "summary": "I was in charge of the html layout of emailings for the main client Banco Saga Falabella, ensuring correct visualization in various email clients and devices. Additionally, I managed the Salesforce - Exactarget platform for the management and sending of email marketing campaigns.",
-      "highlights": ["Started the company"]
-    }
-  ],
-  "volunteer": [
+      "startDate": "Nov 2018",
+      "endDate": "Feb 2019",
+      "summary": "",
+      "highlights": [
+        "Responsible for the HTML layout of email campaigns for the main client Banco Saga Falabella, ensuring correct rendering across different email clients and devices",
+        "Managed the Salesforce - ExactTarget platform for the management and dispatch of email marketing campaigns"
+      ]
+    },
     {
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
-      "highlights": ["Awarded 'Volunteer of the Month'"]
+      "name": "Gisbert Representaciones",
+      "position": "Web Developer",
+      "startDate": "Jul 2015",
+      "endDate": "Oct 2018",
+      "summary": "",
+      "highlights": ["WordPress web development for various clients", "Company hosting administration via cPanel"]
     }
   ],
   "education": [
@@ -116,7 +182,7 @@
     {
       "institution": "Coursera - Google Data Analytics",
       "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
-      "area": "Data Analysis",
+      "area": "Data Analytics",
       "studyType": "Technical Degree",
       "startDate": "2023-01-01",
       "endDate": "2023-01-01",
@@ -134,9 +200,9 @@
       "courses": ["CS101 - Introduction to Computer Science"]
     },
     {
-      "institution": "Google Activate",
+      "institution": "Google Actívate",
       "url": "https://ed.team/",
-      "area": "Introduction to web development I and II",
+      "area": "Introduction to Web Development I & II",
       "studyType": "Technical Degree",
       "startDate": "2021-01-01",
       "endDate": "2021-01-01",
@@ -156,37 +222,22 @@
     {
       "institution": "Udemy",
       "url": "https://www.udemy.com/",
-      "area": "Express Developer of Administrations with Laravel 5",
+      "area": "Express Admin Development with Laravel 5",
       "studyType": "Technical Degree",
       "startDate": "2019-01-01",
       "endDate": "2019-01-01",
       "score": "18/20",
       "courses": ["CS101 - Introduction to Computer Science"]
-    }
-  ],
-  "awards": [
+    },
     {
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
-      "summary": "Description…"
+      "institution": "Icpna",
+      "url": "https://www.icpna.edu.pe/",
+      "area": "Intermediate Program of English",
+      "studyType": "Technical Degree",
+      "startDate": "2013-01-01",
+      "endDate": "2013-01-01",
+      "score": "18/20",
+      "courses": ["CS101 - Introduction to Computer Science"]
     }
   ],
   "skills": [
@@ -284,7 +335,7 @@
       "name": "Jenkins",
       "level": "Intermediate",
       "icon": "../assets/img/icons/jenkins.svg",
-      "keywords": ["Continuous Integration", "Automated Deployment", "DevOps"]
+      "keywords": ["Continuous Integration", "Automatic Deployment", "DevOps"]
     },
     {
       "name": "Docker",
@@ -331,52 +382,6 @@
     {
       "name": "Jane Doe",
       "reference": "Reference…"
-    }
-  ],
-  "projects": [
-    {
-      "name": "mars.codes",
-      "isActive": true,
-      "description": "Interactive story with programming challenges to travel to Mars",
-      "highlights": ["Choose your own adventure", "In development"],
-      "url": "https://mars.codes"
-    },
-    {
-      "name": "AdventJS",
-      "isActive": true,
-      "description": "JavaScript programming challenges for each day of December until Christmas",
-      "highlights": ["+1 million visits", "Multilingual", "JavaScript & TypeScript"],
-      "url": "https://adventjs.dev"
-    },
-    {
-      "name": "Codember",
-      "isActive": true,
-      "description": "Interactive programming game with challenges and secrets",
-      "highlights": ["+2000 active users", "Challenges for any language"],
-      "url": "https://codember.dev"
-    },
-    {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "HTML, CSS and JavaScript code playground for sharing",
-      "highlights": ["100k visits per month", "Community developed"],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
-    },
-    {
-      "name": "Technical Tests",
-      "isActive": true,
-      "description": "List of company technical tests to practice programming",
-      "highlights": ["100% free", "+500 community solutions"],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
-    },
-    {
-      "name": "miduConf",
-      "isActive": false,
-      "description": "Streaming programming conference for the Spanish-speaking community with top talks",
-      "highlights": ["+15k tickets distributed", "+50k live viewers"],
-      "url": "https://miduconf.com"
     }
   ]
 }

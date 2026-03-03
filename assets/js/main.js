@@ -17,25 +17,7 @@ generateSpaceLayer('1px', '.space-1', 200, '25s');
 generateSpaceLayer('2px', '.space-2', 100, '20s');
 generateSpaceLayer('4px', '.space-3', 25, '15s');
 
-// Animaciones al hacer scroll
-const observerOptions = {
-  threshold: 0.1,
-  rootMargin: '0px 0px -50px 0px',
-};
-
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('aos-animate');
-    }
-  });
-}, observerOptions);
-
-// Observar todos los elementos con data-aos
 document.addEventListener('DOMContentLoaded', () => {
-  const animatedElements = document.querySelectorAll('[data-aos]');
-  animatedElements.forEach((el) => observer.observe(el));
-
   // Smooth scroll para los enlaces del navbar
   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     anchor.addEventListener('click', function (e) {

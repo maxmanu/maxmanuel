@@ -79,5 +79,10 @@
     "no_results": "No se encontraron proyectos con los filtros seleccionados.",
     "no_results_desc": "Intenta cambiar los filtros para ver más resultados.",
     "back_home": "Volver al inicio"
+  },
+  "news": {
+    "title": "Noticias Destacadas",
+    "readMore": "Leer más",
+    "noPosts": "No hay publicaciones disponibles en este momento."
   }
 }

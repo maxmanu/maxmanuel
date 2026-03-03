@@ -94,7 +94,7 @@ p {
 
 section {
   max-width: 700px;
-  margin: 0 auto 72px;
+  margin: 0 auto 30px;
 
   p.texto {
     text-align: justify;
@@ -281,13 +281,28 @@ h2 {
       text-align: right;
     }
   }
+
+  .highlights-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-left: 1.2rem;
+    margin-top: 4px;
+    list-style: disc;
+
+    li {
+      font-size: 0.85rem;
+      color: #444;
+      line-height: 1.1rem;
+    }
+  }
 }
 
 .education-section {
   ul {
     display: flex;
     flex-direction: column;
-    gap: 22px;
+    gap: 15px;
   }
 
   article h3 {

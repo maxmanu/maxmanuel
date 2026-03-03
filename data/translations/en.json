@@ -79,5 +79,10 @@
     "no_results": "No projects found with the selected filters.",
     "no_results_desc": "Try changing the filters to see more results.",
     "back_home": "Back to home"
+  },
+  "news": {
+    "title": "Featured News",
+    "readMore": "Read more",
+    "noPosts": "No posts available at this time."
   }
 }
