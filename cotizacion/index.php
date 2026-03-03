@@ -231,7 +231,7 @@ require_once 'template/header.php';
     y la <strong style="color:var(--color-primary);">Plataforma Completa</strong> con todos los m&oacute;dulos del mockup operativos.
   </p>
 
-  <div class="option-cards" style="grid-template-columns: 1fr 1fr;">
+  <div class="option-cards">
 
     <!-- ── MVP ── -->
     <div class="option-card">
