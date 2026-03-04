@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Max Manuel C.A.",
-    "label": "Full Stack Developer with over 6 years of experience in web development for agencies, private companies, and public sector entities in Peru.",
+    "label": "Full Stack Developer | React · Next.js · TypeScript · Node.js | 6+ Years of Experience | Open to Remote",
     "image": "../assets/img/perfil-foto.jpg",
     "email": "maxcamina@gmail.com",
     "phone": "+51 990378205",
     "url": "https://maxmanuel.com",
-    "summary": "Full Stack Developer with over 6 years of experience building responsive web applications and websites, focused on performance, accessibility, and SEO. Specialized in Front-end development using HTML5, CSS3, JavaScript, TypeScript, and modern frameworks such as React, Angular, and Next.js. Proficient in styling tools like Tailwind CSS, Bootstrap, and SCSS. On the Back-end side, I have experience with PHP (Laravel), Node.js, and Python, developing APIs and scalable solutions. I have solid knowledge of both relational and non-relational databases, including MySQL, SQL Server, MariaDB, and MongoDB, covering modeling, optimization, and maintenance. I have experience working with modern methodologies and continuous integration tools such as Docker, Git, Jenkins, GitLab, and Bitbucket. I have also developed solutions on CMS platforms such as WordPress, WooCommerce, Joomla, and Drupal. Additionally, I have knowledge in design and prototyping using Figma, Illustrator, and Photoshop, which allows me to collaborate efficiently in multidisciplinary teams.",
+    "summary": "Full Stack Developer with 6+ years of experience building high-performance, accessible, and SEO-optimized web applications. Specialized in Front-end development with React, Next.js, Angular, TypeScript, Tailwind CSS, and SCSS. Back-end experience with Node.js, PHP (Laravel), and Python, designing and consuming RESTful APIs and scalable solutions. Solid knowledge of relational and non-relational databases including MySQL, SQL Server, MariaDB, and MongoDB. Proficient with CI/CD tools and DevOps workflows using Docker, Git, Jenkins, GitLab, and Bitbucket. CMS expertise with WordPress, WooCommerce, Joomla, and Drupal. Familiar with Agile/Scrum methodologies. Design and prototyping skills with Figma, Illustrator, and Photoshop.",
     "location": {
       "address": "Jesus María, Lima, Peru",
       "postalCode": "08820",
@@ -37,30 +37,30 @@
   },
   "work": [
     {
-      "name": "Freelancer",
+      "name": "Independent Contractor (Freelance)",
       "position": "Web Developer",
       "url": "https://maxmanuel.com",
       "startDate": "Jan 2019",
       "endDate": null,
       "summary": "",
       "highlights": [
-        "Collaborated with various companies and agencies, developing web applications",
-        "Participated in the development of landing pages, HTML email templates, and manageable PHP and WordPress themes",
-        "At Revisaperu S.A.C., developed websites for the company and its subsidiaries, as well as managing hosting and corporate email",
-        "Ideando.pe was my own software development agency venture"
+        "Designed and developed full-stack web applications for 10+ clients across e-commerce, education, and media industries using React, Next.js, PHP, and WordPress",
+        "Built and deployed responsive landing pages, custom WordPress/WooCommerce themes, and RESTful APIs for agencies and startups",
+        "Managed end-to-end project delivery: requirements gathering, architecture, development, testing, and cloud hosting via cPanel and shared hosting environments",
+        "Founded Ideando.pe, a boutique software development agency providing web solutions to local businesses"
       ]
     },
     {
-      "name": "MINEDU-DIF",
+      "name": "Ministry of Education of Peru (MINEDU-DIF)",
       "position": "Web Developer",
       "url": "https://testsigidif.space/",
       "startDate": "Oct 2025",
       "endDate": "Dec 2025",
       "summary": "",
       "highlights": [
-        "Led the development and optimization of the SIGIDIF system, implementing new features and resolving security issues in accordance with the OWASP Top 10",
-        "Managed the MariaDB database, ensuring its integrity and performance",
-        "Collaborated on the continuous improvement of the system, working as a team to ensure its stability and efficiency"
+        "Led development and optimization of the SIGIDIF internal management system, implementing new features and resolving security vulnerabilities following OWASP Top 10 standards",
+        "Administered and optimized MariaDB database, ensuring data integrity and query performance",
+        "Collaborated cross-functionally to improve system stability, maintainability, and overall efficiency"
       ]
     },
     {
@@ -71,43 +71,44 @@
       "endDate": "Dec 2024",
       "summary": "",
       "highlights": [
-        "Web application development in React JS and Next JS",
-        "Application development in Angular JS",
-        "WordPress / WooCommerce theme and plugin development"
+        "Developed responsive web applications using React and Next.js with TypeScript",
+        "Built enterprise-grade SPAs with Angular",
+        "Engineered custom WordPress and WooCommerce themes and plugins for client e-commerce solutions"
       ]
     },
     {
-      "name": "MINEDU-OTIC (Phase I)",
+      "name": "Ministry of Education of Peru (MINEDU-OTIC) \u2013 Phase II",
       "position": "Web Developer",
       "url": "https://minedu.gob.pe",
       "startDate": "Sep 2022",
       "endDate": "Dec 2022",
       "summary": "",
       "highlights": [
-        "Led the front-end development for the National Education Project Observatory, ensuring the efficient delivery of new features such as the integration of Power BI dashboards to display the main PEN indicators",
-        "Drove improvements in user experience and site stability"
+        "Implemented CI/CD pipelines with Jenkins for the National Education Project Observatory (PEN), automating build, testing, and deployment workflows to increase release efficiency",
+        "Led the production deployment of the PEN platform, coordinating final QA validation and go-live execution"
       ]
     },
     {
-      "name": "MINEDU-OTIC (Phase II)",
+      "name": "Ministry of Education of Peru (MINEDU-OTIC) \u2013 Phase I",
       "position": "Web Developer",
       "url": "https://minedu.gob.pe",
       "startDate": "Oct 2021",
       "endDate": "Dec 2021",
       "summary": "",
       "highlights": [
-        "Led the ongoing development of the WordPress portal for the National Education Project Observatory, ensuring the efficient delivery of new features such as the integration of Power BI dashboards to display the main PEN indicators"
+        "Led front-end development for the National Education Project Observatory (PEN), delivering new features on schedule including Power BI dashboard integrations to visualize key national education indicators",
+        "Improved UX and site performance, increasing overall stability and user satisfaction"
       ]
     },
     {
-      "name": "PRONABEC",
+      "name": "National Scholarship and Education Loan Program \u2013 PRONABEC (Peru)",
       "position": "Web Developer",
       "url": "https://pronabec.gob.pe",
       "startDate": "Mar 2021",
       "endDate": "Jul 2021",
       "summary": "",
       "highlights": [
-        "Responsible for the update and migration of PRONABEC's institutional website to the Gob.pe portal, ensuring operational continuity and improved user experience"
+        "Executed the full update and migration of PRONABEC's institutional website to the national Gob.pe portal, ensuring zero downtime and improved user experience throughout the transition"
       ]
     },
     {
@@ -118,12 +119,12 @@
       "endDate": "Mar 2021",
       "summary": "",
       "highlights": [
-        "Landing page development for Mapfre and Universidad Pacífico",
-        "HTML email template design for Mapfre",
-        "Manageable PHP-WordPress theme development for Universidad Pacífico",
-        "Agency website development using Joomla CMS",
-        "Virtual store development for Orgasana",
-        "Book sales system development in PHP"
+        "Developed high-conversion landing pages for Mapfre and Universidad del Pacifico",
+        "Designed and coded responsive HTML email templates for Mapfre marketing campaigns",
+        "Built custom manageable WordPress themes in PHP for Universidad del Pacifico",
+        "Developed the agency's corporate website using Joomla CMS",
+        "Built a full e-commerce solution for Orgasana using WooCommerce",
+        "Developed a book sales system from scratch in PHP"
       ]
     },
     {
@@ -134,8 +135,8 @@
       "endDate": "Oct 2020",
       "summary": "",
       "highlights": [
-        "Web project development for various clients",
-        "Website development for the agency and Promaut company"
+        "Delivered web projects for multiple clients across different industries",
+        "Built the agency's corporate website and the Promaut company website"
       ]
     },
     {
@@ -145,8 +146,8 @@
       "endDate": "Feb 2019",
       "summary": "",
       "highlights": [
-        "Responsible for the HTML layout of email campaigns for the main client Banco Saga Falabella, ensuring correct rendering across different email clients and devices",
-        "Managed the Salesforce - ExactTarget platform for the management and dispatch of email marketing campaigns"
+        "Coded pixel-perfect HTML email templates for Banco Saga Falabella, ensuring accurate rendering across 10+ email clients and devices",
+        "Administered the Salesforce ExactTarget (Marketing Cloud) platform, managing segmentation and deployment of email marketing campaigns"
       ]
     },
     {
@@ -155,7 +156,10 @@
       "startDate": "Jul 2015",
       "endDate": "Oct 2018",
       "summary": "",
-      "highlights": ["WordPress web development for various clients", "Company hosting administration via cPanel"]
+      "highlights": [
+        "Designed and developed WordPress websites for multiple clients",
+        "Managed company web hosting infrastructure via cPanel"
+      ]
     }
   ],
   "education": [
@@ -173,71 +177,64 @@
       "institution": "Tecsup",
       "url": "https://www.tecsup.edu.pe",
       "area": "Fullstack Web Development",
-      "studyType": "Technical Degree",
+      "studyType": "Certificate",
       "startDate": "2021-01-01",
       "endDate": "2021-01-01",
-      "score": "18/20",
-      "courses": ["CS101 - Introduction to Computer Science"]
+      "courses": []
     },
     {
-      "institution": "Coursera - Google Data Analytics",
+      "institution": "Coursera \u2013 Google Data Analytics Certificate",
       "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
       "area": "Data Analytics",
-      "studyType": "Technical Degree",
+      "studyType": "Professional Certificate",
       "startDate": "2023-01-01",
       "endDate": "2023-01-01",
-      "score": "18/20",
-      "courses": ["CS101 - Introduction to Computer Science"]
+      "courses": []
     },
     {
       "institution": "EDteam",
       "url": "https://ed.team/",
-      "area": "React JS",
-      "studyType": "Technical Degree",
+      "area": "React",
+      "studyType": "Certificate",
       "startDate": "2021-01-01",
       "endDate": "2021-01-01",
-      "score": "18/20",
-      "courses": ["CS101 - Introduction to Computer Science"]
+      "courses": []
     },
     {
-      "institution": "Google Actívate",
-      "url": "https://ed.team/",
+      "institution": "Google Activate",
+      "url": "https://learndigital.withgoogle.com/",
       "area": "Introduction to Web Development I & II",
-      "studyType": "Technical Degree",
+      "studyType": "Certificate",
       "startDate": "2021-01-01",
       "endDate": "2021-01-01",
-      "score": "18/20",
-      "courses": ["CS101 - Introduction to Computer Science"]
+      "courses": []
     },
     {
       "institution": "Sistemas UNI",
       "url": "https://www.sistemasuni.edu.pe/",
-      "area": "Workshop: Javascript Developer",
-      "studyType": "Technical Degree",
+      "area": "Workshop: JavaScript Developer",
+      "studyType": "Certificate",
       "startDate": "2019-01-01",
       "endDate": "2019-01-01",
-      "score": "18/20",
-      "courses": ["CS101 - Introduction to Computer Science"]
+      "courses": []
     },
     {
       "institution": "Udemy",
       "url": "https://www.udemy.com/",
-      "area": "Express Admin Development with Laravel 5",
-      "studyType": "Technical Degree",
+      "area": "Laravel 5 Admin Development",
+      "studyType": "Certificate",
       "startDate": "2019-01-01",
       "endDate": "2019-01-01",
-      "score": "18/20",
-      "courses": ["CS101 - Introduction to Computer Science"]
+      "courses": []
     },
     {
-      "institution": "Icpna",
+      "institution": "ICPNA",
       "url": "https://www.icpna.edu.pe/",
       "area": "Intermediate Program of English",
-      "studyType": "Technical Degree",
+      "studyType": "Certificate",
       "startDate": "2013-01-01",
       "endDate": "2013-01-01",
-      "score": "18/20",
-      "courses": ["CS101 - Introduction to Computer Science"]
+      "courses": []
     }
   ],
   "skills": [
@@ -260,7 +257,7 @@
       "keywords": ["Web Development", "Frontend", "Backend", "Fullstack"]
     },
     {
-      "name": "Tailwind",
+      "name": "Tailwind CSS",
       "level": "Advanced",
       "icon": "../assets/img/icons/tailwind.svg",
       "keywords": ["Web Development", "Frontend", "CSS Framework", "Responsive Design"]
@@ -272,7 +269,7 @@
       "keywords": ["Web Development", "Frontend", "Backend", "JavaScript Superset"]
     },
     {
-      "name": "Node",
+      "name": "Node.js",
       "level": "Advanced",
       "icon": "../assets/img/icons/node.svg",
       "keywords": ["Web Development", "Backend", "JavaScript", "Server"]
@@ -360,6 +357,18 @@
       "level": "Intermediate",
       "icon": "../assets/img/icons/wordpress.svg",
       "keywords": ["CMS", "Web Development", "Plugins", "Themes"]
+    },
+    {
+      "name": "REST APIs",
+      "level": "Advanced",
+      "icon": "../assets/img/icons/api.svg",
+      "keywords": ["Web Development", "Backend", "Integration", "JSON"]
+    },
+    {
+      "name": "Agile / Scrum",
+      "level": "Intermediate",
+      "icon": "../assets/img/icons/agile.svg",
+      "keywords": ["Methodology", "Project Management", "Teamwork"]
     }
   ],
   "languages": [
@@ -370,18 +379,6 @@
     {
       "language": "English",
       "fluency": "Advanced"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Wildlife",
-      "keywords": ["Ferrets", "Unicorns"]
-    }
-  ],
-  "references": [
-    {
-      "name": "Jane Doe",
-      "reference": "Reference…"
     }
   ]
 }

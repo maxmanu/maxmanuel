@@ -74,7 +74,7 @@ foreach ($cv->basics->profiles as $profile) {
           <?php endforeach; ?>
         </footer>
       </div>
-      <figure>
+      <figure class="no-print">
         <img src="<?php echo htmlspecialchars($cv->basics->image); ?>" alt="<?php echo htmlspecialchars($cv->basics->name); ?>" />
       </figure>
     </div>
